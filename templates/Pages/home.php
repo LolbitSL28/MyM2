@@ -78,11 +78,11 @@ endif;
         <div>
             <img class="img_logo" src="webroot/img/Logo M&M (Fatima).jpeg">
         </div>
-        <label class="logo">Abarrotes M&M</label>
+        <label class="logo">Abarrotes M&M🍎🥑</label>
         <ul class="menu_options">
 
             <li>
-                <a href="#">Iniciar Sesion</a>
+                <a href="Users/login.php">Iniciar Sesion</a>
             </li>
             <li>
                 <a href="#">Articulos</a>

@@ -345,3 +345,390 @@ Stack Trace:
 
 Request URL: /css/webroot/img/fondoarriba.jpeg
 Referer URL: http://localhost/MyM2/css/estilo_home.css
+2022-11-18 18:32:02 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php on line 509
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Controller\RequestsController.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/b7ca311f-c05b-4bba-b67f-05b2fd700e81
+Referer URL: http://localhost/MyM2/
+2022-11-18 18:33:20 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login.php() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+2022-11-18 18:42:24 error: [Error] Call to a member function addUnauthenticatedActions() on null in C:\xampp\htdocs\MyM2\src\Controller\UsersController.php on line 111
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventManager.php:309
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventManager.php:286
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php:92
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:644
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:129
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+2022-11-18 18:42:25 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:42:25 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:42:25 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:42:25 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:48:46 error: [Error] Call to a member function addUnauthenticatedActions() on null in C:\xampp\htdocs\MyM2\src\Controller\UsersController.php on line 111
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventManager.php:309
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventManager.php:286
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php:92
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:644
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:129
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+2022-11-18 18:48:47 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:48:47 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:48:47 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:48:47 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:50:47 error: [Error] Call to a member function addUnauthenticatedActions() on null in C:\xampp\htdocs\MyM2\src\Controller\UsersController.php on line 112
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventManager.php:309
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventManager.php:286
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php:92
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:644
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:129
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+2022-11-18 18:50:48 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:50:48 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:50:48 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:50:48 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:51:10 error: [Error] Call to a member function addUnauthenticatedActions() on null in C:\xampp\htdocs\MyM2\src\Controller\UsersController.php on line 111
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventManager.php:309
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventManager.php:286
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php:92
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:644
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:129
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+2022-11-18 18:51:11 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:51:11 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:51:11 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:51:11 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:51:52 error: [Error] Call to a member function addUnauthenticatedActions() on null in C:\xampp\htdocs\MyM2\src\Controller\UsersController.php on line 111
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventManager.php:309
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventManager.php:286
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php:92
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:644
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:129
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+2022-11-18 18:51:52 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:51:52 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:51:52 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-18 18:51:52 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
