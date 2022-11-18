@@ -7,10 +7,10 @@
 
 body{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    background-image:  url(webroot/img/fondomenu.jpeg);
+    background-image:  url(fondomenu.jpeg);
 }
 .info{
-    background-image: url(webroot/img/fondoarriba.jpeg);
+    background-image: url(fondoarriba.jpeg);
     height: 30px;
     width: 100vw;
     justify-content: space-between;
