@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    background-image:  url(fondomenu.jpeg);
+    background-image:  url(fondmenu.jpeg);
 }
 .info{
     background-image: url(fondoarriba.jpeg);
@@ -78,6 +78,11 @@ body{
     background-color: rgba(0, 0, 0, .1);
     transition: .4s;
 }
+
+
+
+
+   
 
 
    
