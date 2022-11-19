@@ -732,3 +732,200 @@ Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\sr
 Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
 [main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
 
+2022-11-19 09:56:19 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login.php() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /Users/login.php
+Referer URL: http://localhost/MyM2/
+2022-11-19 10:13:29 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`mym`.`comentarios`, CONSTRAINT `comentarios_ibfk_1` FOREIGN KEY (`Id_Usuario`) REFERENCES `users` (`id`)) in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:360
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2342
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1562
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:709
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1563
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2343
+- C:\xampp\htdocs\MyM2\src\Controller\UsersController.php:97
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /users/delete/1
+Referer URL: http://localhost/MyM2/users
+2022-11-19 10:50:19 error: [Cake\Http\Exception\MissingControllerException] Controller class Home could not be found. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Home',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /home
+2022-11-19 10:57:24 error: [Cake\Http\Exception\MissingControllerException] Controller class Articles could not be found. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /articles
+Referer URL: http://localhost/MyM2/users/login
+2022-11-19 10:59:03 error: [Cake\Http\Exception\MissingControllerException] Controller class Articles could not be found. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /articles
+Referer URL: http://localhost/MyM2/users/login
+2022-11-19 11:01:54 error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "users" with primary key [NULL] in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 1500
+Stack Trace:
+- C:\xampp\htdocs\MyM2\src\Controller\UsersController.php:72
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /users/edit
+Referer URL: http://localhost/MyM2/users/login?redirect=%2Fusers%2Fedit
