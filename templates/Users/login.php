@@ -1,33 +1,22 @@
-<!-- in /templates/Users/login.php 
-<div class="users form">
-<?/*    
-<? = $this->Flash->render() ?>
-    <h3>Iniciar Sesion</h3>
-    <?= $this->Form->create() ?>
-    <fieldset>
-        <legend><?= __('Ingresa tu Correo Electronico') ?></legend>
-        <?= $this->Form->control('Correo Electronico', ['required' => true]) ?>
-        <?= $this->Form->control('Contraseña', ['required' => true]) ?>
-    </fieldset>
-    <?= $this->Form->submit(__('Iniciar Sesion')); ?>
-    <?= $this->Form->end() ?>
-
-    <?= $this->Html->link("Registrarse", ['action' => 'add']) ?>
-    */?>
-</div> 
--->
-
+<?= $this->Html->css(['normalize.min', 'milligram.min', 'estilo_login', 'estilo_home','cake']) ?>
+<?= $this->Html->meta(['icon']) ?>
 <div class="users form">
     <?= $this->Flash->render() ?>
+    <div class="login_box">
     <h3>Iniciar Sesión</h3>
     <?= $this->Form->create() ?>
     <fieldset>
-        <legend><?= __('Ingresa tu correo electrónico y contraseña') ?></legend>
+    <div class="email">
         <?= $this->Form->control('email', ['required' => true]) ?>
+    </div>
+    <div class="password">
         <?= $this->Form->control('password', ['required' => true]) ?>
+    </div>  
     </fieldset>
+    <div class="login">
     <?= $this->Form->submit(__('Iniciar Sesión')); ?>
     <?= $this->Form->end() ?>
-
+    </div>
+    <div class="registrarse">
     <?= $this->Html->link("Registrarse", ['action' => 'add']) ?>
-</div>
+</div> </div> 
