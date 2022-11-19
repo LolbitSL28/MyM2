@@ -70,7 +70,7 @@ endif;
 <body>
 <nav class="info">
         <div class="cel_email">
-            Telefono: 633-107-1341 &nbsp &nbsp Correo Electronico: <a href="aby.mrod@gmail.com">aby.mrod@gmail.com</a>
+            Teléfono: 633-107-1341 &nbsp &nbsp Correo Electrónico: <a href="aby.mrod@gmail.com">aby.mrod@gmail.com</a>
         </div>
     </nav>
     
@@ -82,22 +82,22 @@ endif;
         <ul class="menu_options">
 
             <li>
-                <a href="Users/login.php">Iniciar Sesion</a>
+            <?= $this->Html->link(__('Iniciar Sesión'), ['controller' => 'Users', 'action' => 'login']); ?>
             </li>
             <li>
-                <a href="#">Articulos</a>
+            <?= $this->Html->link(__('Articulos'), ['controller' => 'Producto', 'action' => 'index']); ?>
             </li>
             <li>
-                <a href="#">Registrar Articulos</a>
+            <?= $this->Html->link(__('Registrar Articulos'), ['controller' => 'Producto', 'action' => 'add']); ?>
             </li>
             <li>
                 <a href="#">Servicios</a>
             </li>
             <li>
-                <a href="#">Usuarios Registrados</a>
+            <?= $this->Html->link(__('Usuarios Registrados'), ['controller' => 'Users', 'action' => 'index']); ?>
             </li>
             <li>
-                <a href="#">Comentarios</a>
+            <?= $this->Html->link(__('Comentarios'), ['controller' => 'Comentarios', 'action' => 'index']); ?>
             </li>
         </ul>
     </nav>

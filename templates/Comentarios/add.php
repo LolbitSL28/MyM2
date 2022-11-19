@@ -17,7 +17,8 @@
             <fieldset>
                 <legend><?= __('Add Comentario') ?></legend>
                 <?php
-                    echo $this->Form->control('Id_Usuario');
+                    echo $this->Form->control('Id_Usuario', ['type' => 'hidden', 'value' => 3]);
+                    //echo $this->Form->control('Id_Usuario');
                     echo $this->Form->control('Contenido');
                 ?>
             </fieldset>
