@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 17, 2022 at 08:11 AM
+-- Generation Time: Nov 19, 2022 at 01:57 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -44,6 +44,14 @@ CREATE TABLE `comentarios` (
   `Id_Usuario` int(11) NOT NULL,
   `Contenido` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `comentarios`
+--
+
+INSERT INTO `comentarios` (`Id_Comentario`, `Id_Usuario`, `Contenido`) VALUES
+(4, 3, 'hola'),
+(5, 3, 'hiiii');
 
 -- --------------------------------------------------------
 
@@ -99,11 +107,21 @@ CREATE TABLE `proveedor` (
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
+  `user_name` varchar(30) NOT NULL,
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `user_name`, `email`, `password`, `created`, `modified`) VALUES
+(3, 'Yogo', 'yogo@gmail.com', '$2y$10$vKucY3mQtWYo35mtgplLqePdBEAgG0MK6oZeK1fW/j7WOw8y1hKwe', '2022-11-19 10:33:13', '2022-11-19 10:33:13'),
+(4, 'hello', 'hola@gmail.com', '$2y$10$GtGPiYIJQQ8D/5oVbRTpVOYd7qXcSYUNpwqBUHr9j33Z/idpp7REO', '2022-11-19 10:51:18', '2022-11-19 11:03:28'),
+(5, 'Bucky', 'bucky@gmail.com', '$2y$10$SF1pzHxIT1aMWsHmdv0zj..atg9gOvAlU6KS36JNMzkl1qQRjRZmi', '2022-11-19 11:04:01', '2022-11-19 11:04:01');
 
 -- --------------------------------------------------------
 
@@ -189,7 +207,7 @@ ALTER TABLE `categoria`
 -- AUTO_INCREMENT for table `comentarios`
 --
 ALTER TABLE `comentarios`
-  MODIFY `Id_Comentario` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `Id_Comentario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `empleado`
@@ -213,7 +231,7 @@ ALTER TABLE `proveedor`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `venta`
@@ -229,7 +247,7 @@ ALTER TABLE `venta`
 -- Constraints for table `comentarios`
 --
 ALTER TABLE `comentarios`
-  ADD CONSTRAINT `comentarios_ibfk_1` FOREIGN KEY (`Id_Usuario`) REFERENCES `users` (`id`);
+  ADD CONSTRAINT `comentarios_ibfk_1` FOREIGN KEY (`Id_Usuario`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE;
 
 --
 -- Constraints for table `producto`
