@@ -26,7 +26,7 @@
                 <?php foreach ($producto as $producto): ?>
                 <tr>
                     <td><?= $this->Number->format($producto->Id_Producto) ?></td>
-                    <td><?= $this->Number->format($producto->Id_Categoria) ?></td>
+                    <td><?= $this->Number->format($producto->Nombre_Categoria) ?></td>
                     <td><?= h($producto->Nombre_Prod) ?></td>
                     <td><?= h($producto->Descripcion_Producto) ?></td>
                     <td><?= h($producto->Marca) ?></td>

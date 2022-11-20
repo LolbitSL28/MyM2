@@ -38,8 +38,12 @@ class ProductoTable extends Table
         parent::initialize($config);
 
         $this->setTable('producto');
-        $this->setDisplayField('Id_Producto');
+        $this->setDisplayField('Nombre_Cat');
         $this->setPrimaryKey('Id_Producto');
+        $this->addBehavior('Timestamp');
+        $this->belongsTo('Categoria')
+            ->setForeignKey('Nombre_Cat')
+            ->setBindingKey('$Nombre_Cat');
     }
 
     /**

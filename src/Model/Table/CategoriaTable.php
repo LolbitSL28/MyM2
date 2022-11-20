@@ -38,7 +38,7 @@ class CategoriaTable extends Table
         parent::initialize($config);
 
         $this->setTable('categoria');
-        $this->setDisplayField('Id_Categoria');
+        $this->setDisplayField('Nombre_Cat');
         $this->setPrimaryKey('Id_Categoria');
     }
 
@@ -55,6 +55,7 @@ class CategoriaTable extends Table
             ->maxLength('Nombre_Cat', 30)
             ->requirePresence('Nombre_Cat', 'create')
             ->notEmptyString('Nombre_Cat');
+
 
         $validator
             ->scalar('Descripcion_Cat')

@@ -56,6 +56,14 @@ class ProductoController extends AppController
             }
             $this->Flash->error(__('The producto could not be saved. Please, try again.'));
         }
+        // Get a list
+        $categoria = $this->Producto->Categoria->find('list')->all();
+
+        // Set tags to the view context
+        $this->set('categoria', $categoria);
+
+        $this->set('producto', $categoria);
+
         $this->set(compact('producto'));
     }
 
@@ -80,6 +88,14 @@ class ProductoController extends AppController
             }
             $this->Flash->error(__('The producto could not be saved. Please, try again.'));
         }
+// Get a list of tags.
+$categoria = $this->Producto->Categoria->find('all')->contain(['Categoria'])->all();
+
+// Set tags to the view context
+$this->set('categoria', $categoria);
+
+$this->set('producto', $producto);
+
         $this->set(compact('producto'));
     }
 
