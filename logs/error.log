@@ -1188,9 +1188,44 @@ Cake\Http\Runner::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Run
 Cake\Http\Server::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 90
 [main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
 
-2022-11-19 13:40:55 error: [Cake\Http\Exception\MissingControllerException] Controller class Categorias could not be found. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+2022-11-19 18:08:50 error: [Cake\Controller\Exception\MissingComponentException] Component class AuthenticationComponent could not be found. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php on line 111
 Exception Attributes: array (
-  'class' => 'Categorias',
+  'class' => 'AuthenticationComponent',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:102
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:304
+- C:\xampp\htdocs\MyM2\src\Controller\AppController.php:49
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:229
+- [internal]:??
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:87
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /
+2022-11-19 18:16:37 error: [Cake\Http\Exception\MissingControllerException] Controller class Menu could not be found. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Menu',
   'plugin' => NULL,
   'prefix' => NULL,
   '_ext' => NULL,
@@ -1219,12 +1254,352 @@ Stack Trace:
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
 - C:\xampp\htdocs\MyM2\webroot\index.php:40
 
-Request URL: /categorias
-2022-11-19 14:09:46 warning: Attempt to read property "Tags" on null
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
+Request URL: /menu/login
+Referer URL: http://localhost/MyM2/
+2022-11-19 18:17:36 error: [Cake\Http\Exception\MissingControllerException] Controller class Menu could not be found. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Menu',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /menu/login
+Referer URL: http://localhost/MyM2/
+2022-11-19 18:17:44 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::menu() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'menu',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /users/menu
+Referer URL: http://localhost/MyM2/
+2022-11-19 18:18:17 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::menu() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'menu',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /users/menu
+Referer URL: http://localhost/MyM2/
+2022-11-19 18:31:02 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::menu() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'menu',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /users/menu
+Referer URL: http://localhost/MyM2/users/login
+2022-11-19 18:31:45 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::menu() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'menu',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /users/menu
+Referer URL: http://localhost/MyM2/users/login
+2022-11-19 18:34:13 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::menu() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'menu',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /users/menu
+Referer URL: http://localhost/MyM2/users/login
+2022-11-19 18:35:17 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::menu() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'menu',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /users/menu
+Referer URL: http://localhost/MyM2/users/login
+2022-11-19 18:35:53 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::menu() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'menu',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /users/menu
+Referer URL: http://localhost/MyM2/users/login
+2022-11-19 18:39:40 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::home() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'home',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /users/home
+Referer URL: http://localhost/MyM2/users/login?redirect=%2Fusers%2Fhome
+2022-11-19 18:40:27 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::home() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'home',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /users/home
+2022-11-19 19:00:47 warning: compact(): Undefined variable $menu
+Request URL: /users
+Referer URL: http://localhost/MyM2/
 Trace:
-App\Controller\ProductoController::add() C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php, line 60
+compact [internal], line ??
+App\Controller\UsersController::index() C:\xampp\htdocs\MyM2\src\Controller\UsersController.php, line 23
 Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
 Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
 Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
@@ -1250,46 +1625,85 @@ Cake\Http\Runner::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Run
 Cake\Http\Server::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 90
 [main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
 
-2022-11-19 14:09:46 error: [Error] Call to a member function find() on null in C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php on line 60
-Stack Trace:
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
+2022-11-19 19:00:47 warning: Undefined variable $users
+Request URL: /users
+Referer URL: http://localhost/MyM2/
+Trace:
+include C:\xampp\htdocs\MyM2\templates\Users\index.php, line 23
+Cake\View\View::_evaluate() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
 
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 14:09:46 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
+2022-11-19 19:00:47 warning: foreach() argument must be of type array|object, null given
+Request URL: /users
+Referer URL: http://localhost/MyM2/
+Trace:
+include C:\xampp\htdocs\MyM2\templates\Users\index.php, line 23
+Cake\View\View::_evaluate() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-19 19:00:47 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /users
+Referer URL: http://localhost/MyM2/
 Trace:
 Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
 Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
 [main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
 
-2022-11-19 14:09:46 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
+2022-11-19 19:00:47 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users
+Referer URL: http://localhost/MyM2/
 Trace:
 header [internal], line ??
 Cake\Http\ResponseEmitter::emitStatusLine() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
@@ -1297,9 +1711,9 @@ Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\sr
 Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
 [main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
 
-2022-11-19 14:09:46 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
+2022-11-19 19:00:47 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users
+Referer URL: http://localhost/MyM2/
 Trace:
 header [internal], line ??
 Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
@@ -1307,9 +1721,9 @@ Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\sr
 Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
 [main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
 
-2022-11-19 14:09:46 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
+2022-11-19 19:00:47 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users
+Referer URL: http://localhost/MyM2/
 Trace:
 header [internal], line ??
 Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
@@ -1317,41 +1731,42 @@ Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\sr
 Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
 [main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
 
-2022-11-19 14:12:08 error: [RuntimeException] Undefined property `Categorium`. You have not defined the `Categorium` association on `App\Model\Table\ProductoTable`. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 2665
-Stack Trace:
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
-
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 14:12:29 warning: Undefined variable $categoria
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
+2022-11-19 19:01:08 warning: compact(): Undefined variable $menu
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
 Trace:
-include C:\xampp\htdocs\MyM2\templates\Producto\add.php, line 20
+compact [internal], line ??
+App\Controller\UsersController::index() C:\xampp\htdocs\MyM2\src\Controller\UsersController.php, line 23
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-19 19:01:08 warning: Undefined variable $users
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
+Trace:
+include C:\xampp\htdocs\MyM2\templates\Users\index.php, line 23
 Cake\View\View::_evaluate() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 1220
 Cake\View\View::_render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 1177
 Cake\View\View::render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 808
@@ -1381,11 +1796,11 @@ Cake\Http\Runner::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Run
 Cake\Http\Server::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 90
 [main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
 
-2022-11-19 14:15:18 warning: Undefined variable $categoria
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
+2022-11-19 19:01:08 warning: foreach() argument must be of type array|object, null given
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
 Trace:
-include C:\xampp\htdocs\MyM2\templates\Producto\add.php, line 27
+include C:\xampp\htdocs\MyM2\templates\Users\index.php, line 23
 Cake\View\View::_evaluate() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 1220
 Cake\View\View::_render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 1177
 Cake\View\View::render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 808
@@ -1415,18 +1830,190 @@ Cake\Http\Runner::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Run
 Cake\Http\Server::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 90
 [main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
 
-2022-11-19 14:20:29 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Categorium` could not be found. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+2022-11-19 19:01:08 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
+Trace:
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-19 19:01:08 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-19 19:01:08 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-19 19:01:08 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-19 19:01:44 warning: compact(): Undefined variable $menu
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
+Trace:
+compact [internal], line ??
+App\Controller\UsersController::index() C:\xampp\htdocs\MyM2\src\Controller\UsersController.php, line 23
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-19 19:01:44 warning: Undefined variable $users
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
+Trace:
+include C:\xampp\htdocs\MyM2\templates\Users\index.php, line 23
+Cake\View\View::_evaluate() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-19 19:01:44 warning: foreach() argument must be of type array|object, null given
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
+Trace:
+include C:\xampp\htdocs\MyM2\templates\Users\index.php, line 23
+Cake\View\View::_evaluate() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-19 19:01:44 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
+Trace:
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-19 19:01:44 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-19 19:01:44 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-19 19:01:44 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users
+Referer URL: http://localhost/MyM2/users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\xampp\htdocs\MyM2\webroot\index.php, line 40
+
+2022-11-19 19:31:24 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::menu() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
 Exception Attributes: array (
-  0 => 'for alias `Categorium`',
+  'controller' => 'UsersController',
+  'action' => 'menu',
+  'prefix' => '',
+  'plugin' => NULL,
 )
 Stack Trace:
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Association.php:403
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Association.php:871
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
@@ -1450,110 +2037,17 @@ Stack Trace:
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
 - C:\xampp\htdocs\MyM2\webroot\index.php:40
 
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 14:21:28 error: [RuntimeException] Undefined property `Categoria`. You have not defined the `Categoria` association on `App\Model\Table\ProductoTable`. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 2665
-Stack Trace:
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
-
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 14:22:21 error: [RuntimeException] Undefined property `Categoria`. You have not defined the `Categoria` association on `App\Model\Table\ProductoTable`. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 2665
-Stack Trace:
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
-
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 14:31:56 error: [RuntimeException] Undefined property `Categoria`. You have not defined the `Categoria` association on `App\Model\Table\ProductoTable`. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 2665
-Stack Trace:
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
-
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 14:32:31 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Nombre_Cat` could not be found. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Request URL: /users/menu
+Referer URL: http://localhost/MyM2/users/login
+2022-11-19 19:32:33 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
 Exception Attributes: array (
-  0 => 'for alias `Nombre_Cat`',
+  'controller' => 'UsersController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
 )
 Stack Trace:
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Association.php:403
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Association.php:871
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
@@ -1567,7 +2061,7 @@ Stack Trace:
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
@@ -1577,302 +2071,27 @@ Stack Trace:
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
 - C:\xampp\htdocs\MyM2\webroot\index.php:40
 
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 14:46:08 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Nombre.Categoria` could not be found. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Request URL: /users/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/users/menu
+2022-11-19 19:34:33 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages\webroot\img\Logo M&M (Fatima).jpeg.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\MyM2\templates\Pages\webroot\img\Logo M&M (Fatima).jpeg.php`
+- `C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\templates\Pages\webroot\img\Logo M&M (Fatima).jpeg.php`
+ in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php on line 1398
 Exception Attributes: array (
-  0 => 'for alias `Nombre.Categoria`',
+  'file' => 'Pages\\webroot\\img\\Logo M&M (Fatima).jpeg.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\MyM2\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\MyM2\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
 )
 Stack Trace:
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Association.php:403
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Association.php:871
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
-
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 14:46:42 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Nombre_Cat` could not be found. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
-Exception Attributes: array (
-  0 => 'for alias `Nombre_Cat`',
-)
-Stack Trace:
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Association.php:403
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Association.php:871
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
-
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 14:58:29 error: [RuntimeException] Undefined property `Categoria`. You have not defined the `Categoria` association on `App\Model\Table\ProductoTable`. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 2665
-Stack Trace:
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
-
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 14:59:03 error: [RuntimeException] Undefined property `Categoria`. You have not defined the `Categoria` association on `App\Model\Table\ProductoTable`. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 2665
-Stack Trace:
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
-
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 15:00:13 error: [RuntimeException] Undefined property `Categoria`. You have not defined the `Categoria` association on `App\Model\Table\ProductoTable`. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 2665
-Stack Trace:
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
-
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 15:22:30 error: [InvalidArgumentException] The `Nombre_Cat` association is not defined on `Categoria`. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 903
-Stack Trace:
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:489
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:314
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:445
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:416
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1177
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1127
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:200
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:303
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:310
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:358
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:142
-- [internal]:??
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Widget\SelectBoxWidget.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Widget\SelectBoxWidget.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2483
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2084
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1211
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1117
-- C:\xampp\htdocs\MyM2\templates\Producto\add.php:20
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:1220
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:1177
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:808
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:805
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:773
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:556
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
-
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 15:23:12 error: [InvalidArgumentException] The `nombre_cat` association is not defined on `Categoria`. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 903
-Stack Trace:
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:489
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:314
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:445
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:416
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1177
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1127
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:200
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:303
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:310
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:358
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:142
-- [internal]:??
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Widget\SelectBoxWidget.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Widget\SelectBoxWidget.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2483
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2084
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1211
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1117
-- C:\xampp\htdocs\MyM2\templates\Producto\add.php:20
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:1220
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:1177
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:808
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:773
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:556
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
-
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 15:26:39 error: [BadMethodCallException] Unknown method "bindingKey" called on App\Model\Table\CategoriaTable in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 2648
-Stack Trace:
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Association.php:1186
-- C:\xampp\htdocs\MyM2\src\Model\Table\ProductoTable.php:46
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:322
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:307
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:262
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:323
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:49
+- C:\xampp\htdocs\MyM2\src\Controller\PagesController.php:65
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
@@ -1888,7 +2107,7 @@ Stack Trace:
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
@@ -1898,185 +2117,27 @@ Stack Trace:
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
 - C:\xampp\htdocs\MyM2\webroot\index.php:40
 
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 15:27:13 error: [BadMethodCallException] Unknown method "bindingKey" called on App\Model\Table\CategoriaTable in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 2648
-Stack Trace:
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Association.php:1186
-- C:\xampp\htdocs\MyM2\src\Model\Table\ProductoTable.php:46
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:322
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:307
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:262
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:323
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:49
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
+Request URL: /pages/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/pages/menu
+2022-11-19 19:35:18 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages\webroot\img\Logo M&M (Fatima).jpeg.php` could not be found.
 
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 15:27:25 error: [BadMethodCallException] Unknown method "bindingKey" called on App\Model\Table\CategoriaTable in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 2648
-Stack Trace:
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Association.php:1186
-- C:\xampp\htdocs\MyM2\src\Model\Table\ProductoTable.php:46
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:322
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:307
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:262
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:323
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:49
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
+The following paths were searched:
 
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 15:28:16 error: [InvalidArgumentException] The `nombre_cat` association is not defined on `Categoria`. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 903
-Stack Trace:
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:489
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:314
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:445
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:416
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1177
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1127
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:200
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:303
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:310
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:358
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:142
-- [internal]:??
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Widget\SelectBoxWidget.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Widget\SelectBoxWidget.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2483
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2084
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1211
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1117
-- C:\xampp\htdocs\MyM2\templates\Producto\add.php:20
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:1220
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:1177
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:808
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:773
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:556
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
-
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 15:28:43 error: [RuntimeException] Undefined property `Categoria`. You have not defined the `Categoria` association on `App\Model\Table\ProductoTable`. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 2665
-Stack Trace:
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
-- C:\xampp\htdocs\MyM2\webroot\index.php:40
-
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 15:29:39 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Nombre_Cat` could not be found. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+- `C:\xampp\htdocs\MyM2\templates\Pages\webroot\img\Logo M&M (Fatima).jpeg.php`
+- `C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\templates\Pages\webroot\img\Logo M&M (Fatima).jpeg.php`
+ in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php on line 1398
 Exception Attributes: array (
-  0 => 'for alias `Nombre_Cat`',
+  'file' => 'Pages\\webroot\\img\\Logo M&M (Fatima).jpeg.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\MyM2\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\MyM2\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
 )
 Stack Trace:
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Association.php:403
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Association.php:871
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\xampp\htdocs\MyM2\src\Controller\PagesController.php:65
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
@@ -2092,7 +2153,7 @@ Stack Trace:
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
@@ -2102,11 +2163,27 @@ Stack Trace:
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
 - C:\xampp\htdocs\MyM2\webroot\index.php:40
 
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
-2022-11-19 15:30:13 error: [RuntimeException] Undefined property `Nombre_Cat`. You have not defined the `Nombre_Cat` association on `App\Model\Table\ProductoTable`. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php on line 2665
+Request URL: /pages/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/pages/menu
+2022-11-19 19:36:05 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages\webroot\img\Logo M&M (Fatima).jpeg.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\MyM2\templates\Pages\webroot\img\Logo M&M (Fatima).jpeg.php`
+- `C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\templates\Pages\webroot\img\Logo M&M (Fatima).jpeg.php`
+ in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Pages\\webroot\\img\\Logo M&M (Fatima).jpeg.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\MyM2\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\MyM2\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
 Stack Trace:
-- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\xampp\htdocs\MyM2\src\Controller\PagesController.php:65
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
@@ -2122,7 +2199,7 @@ Stack Trace:
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
-- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
@@ -2132,5 +2209,97 @@ Stack Trace:
 - C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
 - C:\xampp\htdocs\MyM2\webroot\index.php:40
 
-Request URL: /producto/add
-Referer URL: http://localhost/MyM2/producto
+Request URL: /pages/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/pages/menu
+2022-11-19 19:36:35 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages\webroot\img\Logo M&M (Fatima).jpeg.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\MyM2\templates\Pages\webroot\img\Logo M&M (Fatima).jpeg.php`
+- `C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\templates\Pages\webroot\img\Logo M&M (Fatima).jpeg.php`
+ in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Pages\\webroot\\img\\Logo M&M (Fatima).jpeg.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\MyM2\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\MyM2\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\xampp\htdocs\MyM2\src\Controller\PagesController.php:65
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /pages/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/pages/menu
+2022-11-19 19:37:28 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages\webroot\img\Logo M&M (Fatima).jpeg.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\MyM2\templates\Pages\webroot\img\Logo M&M (Fatima).jpeg.php`
+- `C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\templates\Pages\webroot\img\Logo M&M (Fatima).jpeg.php`
+ in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Pages\\webroot\\img\\Logo M&M (Fatima).jpeg.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\MyM2\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\MyM2\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\xampp\htdocs\MyM2\src\Controller\PagesController.php:65
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /pages/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/pages/menu
