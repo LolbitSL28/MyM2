@@ -61,7 +61,7 @@ endif;
 
     
 
-    <?= $this->Html->css(['normalize.min', 'milligram.min', 'cake', 'estilo_home']) ?>
+    <?= $this->Html->css(['normalize.min', 'milligram.min', 'cake', 'estilo_home','info']) ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
@@ -101,5 +101,30 @@ endif;
             </li>
         </ul>
     </nav>
+
+<!--Nombre de los programadores o cualquier cosa acerca de la empresa?-->
+    <div class="main">
+        <h1>Desarrolladores</h1>
+        <p>
+        • Francisco Alonso Bujanda Noriega<br>
+        • Jose Armando Campos Castro<br>
+        • Mayte Coronado Miranda<br>
+        • Lucia Gamez Ballesteros<br>
+        • Fatima Isabel Hernandez Garcia<br>
+        • Alejandra Murga Benitez<br>
+        • Karen Paola Noriega Espinoza<br>
+        • Hannah Valeria Rivas Chay
+    </div>
+<section class="">
+    <div class="publicidad">
+        
+        <h3>Los Mejores Productos a la Vuelta de la Esquina</h3>
+        <p>Nuestro abarrotes cuenta con todos los productos que necesitas a la vuelta de la esquina. Cubrimos las necesidades de nuestros clientes ofreciendo productos de la canasta básica a un precio más bajo, comparado al precio de un supermercado.</p>
+        
+    </div>
+</section>    
+   
+    
+</section>
 </body>
 </html>
