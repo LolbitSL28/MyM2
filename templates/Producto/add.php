@@ -15,7 +15,7 @@
         <div class="producto form content">
             <?= $this->Form->create($producto) ?>
             <fieldset>
-                <legend><?= __('Add Producto') ?></legend>
+                <legend><?= __('Agregar Producto') ?></legend>
                 <?php
                     echo $this->Form->control('producto.nombre_cat',['options' => $categoria]);
                     echo $this->Form->control('Nombre_Prod');
