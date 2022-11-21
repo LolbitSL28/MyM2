@@ -1,5 +1,5 @@
 <?= $this->Html->css(['normalize.min', 'milligram.min', 'estilo_login', 'estilo_home','cake']) ?>
-<?= $this->Html->meta(['icon']) ?>
+
 <div class="users form">
     <?= $this->Flash->render() ?>
     <div class="login_box">

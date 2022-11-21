@@ -79,6 +79,26 @@ body{
     background-color: rgba(0, 0, 0, .1);
     transition: .4s;
 }
+/*espacio de la pagina home*/
+.publicidad{
+    margin-top: 28px;
+    margin-left: 28px;
+    height: 300px;
+    width: 67vw;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+
+h3{
+    padding: 20px;
+    font-size: 40px;
+}
+p{
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
 
 
 

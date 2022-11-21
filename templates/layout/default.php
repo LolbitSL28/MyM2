@@ -52,10 +52,10 @@ $cakeDescription = 'Abarrotes M&M';
         <ul class="menu_options">
             <li>
             
-            <?= $this->Html->link(__('Inicio'), ['controller' => 'Users', 'action' => 'logout']);?>
+            <?= $this->Html->link(__('Salir'), ['controller' => 'Users', 'action' => 'logout']);?>
             </li>
             <li>
-            <?= $this->Html->link(__('Articulos'), ['controller' => 'Producto', 'action' => 'index']); ?>
+            <?= $this->Html->link(__('Articulos'), ['controller' => 'Producto', 'action' => 'articulos']); ?>
             </li>
             <li>
             <?= $this->Html->link(__('Registrar Articulos'), ['controller' => 'Producto', 'action' => 'add']); ?>
