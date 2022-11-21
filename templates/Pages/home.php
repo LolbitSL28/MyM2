@@ -54,10 +54,10 @@ endif;
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        CakePHP: the rapid development PHP framework:
+    Abarrotes M&M
         <?= $this->fetch('title') ?>
     </title>
-    <?= $this->Html->meta('icon') ?>
+    <link rel="icon" href="webroot/Logo M&M (Fatima).ico">
 
     
 
@@ -82,22 +82,22 @@ endif;
         <ul class="menu_options">
 
             <li>
-                <a href="Users/login.php">Iniciar Sesion</a>
+            <?= $this->Html->link(__('Iniciar Sesion'), ['controller' => 'Users', 'action' => 'login']); ?>
             </li>
             <li>
-                <a href="#">Articulos</a>
+            <?= $this->Html->link(__('Articulos'), ['controller' => 'Producto', 'action' => 'index']); ?>
             </li>
             <li>
-                <a href="#">Registrar Articulos</a>
+            <?= $this->Html->link(__('Registrar Articulos'), ['controller' => 'Producto', 'action' => 'add']); ?>
             </li>
             <li>
                 <a href="#">Servicios</a>
             </li>
             <li>
-                <a href="#">Usuarios Registrados</a>
+            <?= $this->Html->link(__('Usuarios Registrados'), ['controller' => 'Users', 'action' => 'index']); ?>
             </li>
             <li>
-                <a href="#">Comentarios</a>
+            <?= $this->Html->link(__('Comentarios'), ['controller' => 'Comentarios', 'action' => 'index']); ?>
             </li>
         </ul>
     </nav>
