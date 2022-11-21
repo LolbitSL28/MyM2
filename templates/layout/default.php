@@ -25,7 +25,7 @@ $cakeDescription = 'Abarrotes M&M';
         <?= $cakeDescription ?>:
         <?= $this->fetch('title') ?>
     </title>
-    <?= $this->Html->meta('icon') ?>
+    <link rel="icon" href="webroot/Logo M&M (Fatima).ico">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 
@@ -44,12 +44,15 @@ $cakeDescription = 'Abarrotes M&M';
     
     <nav class="menu">
         <div>
+            <!--Tira error en el controlador :[ -->
+            <!--a href="home.php"><img class="img_logo" src="webroot/img/Logo M&M (Fatima).jpeg"--></a>
             <img class="img_logo" src="webroot/img/Logo M&M (Fatima).jpeg">
         </div>
         <label class="logo">Abarrotes M&M🍎🥑</label>
         <ul class="menu_options">
             <li>
-            <?= $this->Html->link(__('Iniciar Sesión'), ['controller' => 'Users', 'action' => 'login']); ?>
+            
+            <?= $this->Html->link(__('Inicio'), ['controller' => 'Users', 'action' => 'logout']);?>
             </li>
             <li>
             <?= $this->Html->link(__('Articulos'), ['controller' => 'Producto', 'action' => 'index']); ?>
