@@ -1,12 +1,12 @@
 
 .login_box{
     align-self: center;
-    margin-top: 30px;
+    margin-top: 5px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     height: 430px;
     width: 30em;
-    padding-right: 60px;
+    padding-right: 35px;
 }
 
 h3{
