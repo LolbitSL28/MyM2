@@ -15,17 +15,15 @@
         <div class="producto form content">
             <?= $this->Form->create($producto) ?>
             <fieldset>
-                <legend><?= __('Agregar Producto') ?></legend>
+                <legend><?= __('Add Producto') ?></legend>
                 <?php
-                    echo $this->Form->control('producto.nombre_cat',['options' => $categoria]);
+                    echo $this->Form->control('Nombre_Cat');
                     echo $this->Form->control('Nombre_Prod');
                     echo $this->Form->control('Descripcion_Producto');
                     echo $this->Form->control('Marca');
                     echo $this->Form->control('Cant_Prod');
                     echo $this->Form->control('Precio');
-                    echo $this->Form->control('Id_Prov');
-                    
-                    
+                    echo $this->Form->control('Nombre_Prov');
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>

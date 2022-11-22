@@ -40,6 +40,10 @@ class CategoriaTable extends Table
         $this->setTable('categoria');
         $this->setDisplayField('Nombre_Cat');
         $this->setPrimaryKey('Id_Categoria');
+/*
+        $this->hasMany('Productos',[
+        'foreignKey' => 'Nombre_Cat',]);*/
+
     }
 
     /**
@@ -54,8 +58,8 @@ class CategoriaTable extends Table
             ->scalar('Nombre_Cat')
             ->maxLength('Nombre_Cat', 30)
             ->requirePresence('Nombre_Cat', 'create')
-            ->notEmptyString('Nombre_Cat');
-
+            ->notEmptyString('Nombre_Cat')
+            ->add('Nombre_Cat', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
 
         $validator
             ->scalar('Descripcion_Cat')
@@ -64,5 +68,19 @@ class CategoriaTable extends Table
             ->notEmptyString('Descripcion_Cat');
 
         return $validator;
+    }
+
+    /**
+     * Returns a rules checker object that will be used for validating
+     * application integrity.
+     *
+     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
+     * @return \Cake\ORM\RulesChecker
+     */
+    public function buildRules(RulesChecker $rules): RulesChecker
+    {
+        $rules->add($rules->isUnique(['Nombre_Cat']), ['errorField' => 'Nombre_Cat']);
+
+        return $rules;
     }
 }

@@ -38,12 +38,16 @@ class ProductoTable extends Table
         parent::initialize($config);
 
         $this->setTable('producto');
-        $this->setDisplayField('Nombre_Cat');
+        $this->setDisplayField('Id_Producto');
         $this->setPrimaryKey('Id_Producto');
-        $this->addBehavior('Timestamp');
+/*
         $this->belongsTo('Categoria')
             ->setForeignKey('Nombre_Cat')
             ->setBindingKey('$Nombre_Cat');
+        
+        $this->belongsTo('Proveedor')
+            ->setForeignKey('Nombre_Prov')
+            ->setBindingKey('$Nombre_Prov');*/
     }
 
     /**
@@ -55,9 +59,10 @@ class ProductoTable extends Table
     public function validationDefault(Validator $validator): Validator
     {
         $validator
-            ->integer('Id_Categoria')
-            ->requirePresence('Id_Categoria', 'create')
-            ->notEmptyString('Id_Categoria');
+            ->scalar('Nombre_Cat')
+            ->maxLength('Nombre_Cat', 30)
+            ->requirePresence('Nombre_Cat', 'create')
+            ->notEmptyString('Nombre_Cat');
 
         $validator
             ->scalar('Nombre_Prod')
@@ -83,15 +88,24 @@ class ProductoTable extends Table
             ->notEmptyString('Cant_Prod');
 
         $validator
-            ->integer('Precio')
+            ->numeric('Precio')
             ->requirePresence('Precio', 'create')
             ->notEmptyString('Precio');
 
         $validator
-            ->integer('Id_Prov')
-            ->requirePresence('Id_Prov', 'create')
-            ->notEmptyString('Id_Prov');
+            ->scalar('Nombre_Prov')
+            ->maxLength('Nombre_Prov', 30)
+            ->requirePresence('Nombre_Prov', 'create')
+            ->notEmptyString('Nombre_Prov');
 
         return $validator;
     }
+
+    /**
+     * Returns a rules checker object that will be used for validating
+     * application integrity.
+     *
+     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
+     * @return \Cake\ORM\RulesChecker
+     */
 }
