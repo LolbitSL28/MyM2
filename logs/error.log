@@ -11746,3 +11746,139 @@ Stack Trace:
 
 Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
 Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:19:42 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:19:50 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/
+2022-11-22 08:20:02 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/
+2022-11-22 08:20:27 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/

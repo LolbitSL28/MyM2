@@ -12,13 +12,13 @@
             <thead>
                 <tr>
                     <th><?= $this->Paginator->sort('Id_Producto') ?></th>
-                    <th><?= $this->Paginator->sort('Id_Categoria') ?></th>
+                    <th><?= $this->Paginator->sort('Nombre_Cat') ?></th>
                     <th><?= $this->Paginator->sort('Nombre_Prod') ?></th>
                     <th><?= $this->Paginator->sort('Descripcion_Producto') ?></th>
                     <th><?= $this->Paginator->sort('Marca') ?></th>
                     <th><?= $this->Paginator->sort('Cant_Prod') ?></th>
                     <th><?= $this->Paginator->sort('Precio') ?></th>
-                    <th><?= $this->Paginator->sort('Id_Prov') ?></th>
+                    <th><?= $this->Paginator->sort('Nombre_Prov') ?></th>
                     <th class="actions"><?= __('Actions') ?></th>
                 </tr>
             </thead>
@@ -26,13 +26,13 @@
                 <?php foreach ($producto as $producto): ?>
                 <tr>
                     <td><?= $this->Number->format($producto->Id_Producto) ?></td>
-                    <td><?= $this->Number->format($producto->Nombre_Categoria) ?></td>
+                    <td><?= h($producto->Nombre_Cat) ?></td>
                     <td><?= h($producto->Nombre_Prod) ?></td>
                     <td><?= h($producto->Descripcion_Producto) ?></td>
                     <td><?= h($producto->Marca) ?></td>
                     <td><?= $this->Number->format($producto->Cant_Prod) ?></td>
                     <td><?= $this->Number->format($producto->Precio) ?></td>
-                    <td><?= $this->Number->format($producto->Id_Prov) ?></td>
+                    <td><?= h($producto->Nombre_Prov) ?></td>
                     <td class="actions">
                         <?= $this->Html->link(__('View'), ['action' => 'view', $producto->Id_Producto]) ?>
                         <?= $this->Html->link(__('Edit'), ['action' => 'edit', $producto->Id_Producto]) ?>

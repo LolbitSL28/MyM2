@@ -19,6 +19,10 @@
             <h3><?= h($producto->Id_Producto) ?></h3>
             <table>
                 <tr>
+                    <th><?= __('Nombre Cat') ?></th>
+                    <td><?= h($producto->Nombre_Cat) ?></td>
+                </tr>
+                <tr>
                     <th><?= __('Nombre Prod') ?></th>
                     <td><?= h($producto->Nombre_Prod) ?></td>
                 </tr>
@@ -31,12 +35,12 @@
                     <td><?= h($producto->Marca) ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('Id Producto') ?></th>
-                    <td><?= $this->Number->format($producto->Id_Producto) ?></td>
+                    <th><?= __('Nombre Prov') ?></th>
+                    <td><?= h($producto->Nombre_Prov) ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('Id Categoria') ?></th>
-                    <td><?= $this->Number->format($producto->Id_Categoria) ?></td>
+                    <th><?= __('Id Producto') ?></th>
+                    <td><?= $this->Number->format($producto->Id_Producto) ?></td>
                 </tr>
                 <tr>
                     <th><?= __('Cant Prod') ?></th>
@@ -45,10 +49,6 @@
                 <tr>
                     <th><?= __('Precio') ?></th>
                     <td><?= $this->Number->format($producto->Precio) ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Id Prov') ?></th>
-                    <td><?= $this->Number->format($producto->Id_Prov) ?></td>
                 </tr>
             </table>
         </div>
