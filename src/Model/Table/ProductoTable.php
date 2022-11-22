@@ -60,8 +60,8 @@ class ProductoTable extends Table
     public function validationDefault(Validator $validator): Validator
     {
         $validator
-            ->numeric('Nombre_Cat')
-            ->maxLength('Nombre_Prod', 30)
+            ->scalar('Nombre_Cat')
+            ->maxLength('Nombre_Cat', 30)
             ->requirePresence('Nombre_Cat', 'create')
             ->notEmptyString(' Nombre_Cat');
 
@@ -94,8 +94,8 @@ class ProductoTable extends Table
             ->notEmptyString('Precio');
 
         $validator
-            ->integer('Nombre_Prov')
-            ->maxLength('Nombre_Prod', 45)
+            ->scalar('Nombre_Prov')
+            ->maxLength('Nombre_Prov', 45)
             ->requirePresence('Nombre_Prov', 'create')
             ->notEmptyString('Nombre_Prov');
 
