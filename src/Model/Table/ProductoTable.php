@@ -38,17 +38,16 @@ class ProductoTable extends Table
         parent::initialize($config);
 
         $this->setTable('producto');
-        $this->setDisplayField('Nombre_Cat');
+        $this->setDisplayField('Id_Producto');
         $this->setPrimaryKey('Id_Producto');
-        $this->addBehavior('Timestamp');
-        
+/*
         $this->belongsTo('Categoria')
             ->setForeignKey('Nombre_Cat')
             ->setBindingKey('$Nombre_Cat');
         
         $this->belongsTo('Proveedor')
             ->setForeignKey('Nombre_Prov')
-            ->setBindingKey('$Nombre_Prov');
+            ->setBindingKey('$Nombre_Prov');*/
     }
 
     /**
@@ -63,7 +62,7 @@ class ProductoTable extends Table
             ->scalar('Nombre_Cat')
             ->maxLength('Nombre_Cat', 30)
             ->requirePresence('Nombre_Cat', 'create')
-            ->notEmptyString(' Nombre_Cat');
+            ->notEmptyString('Nombre_Cat');
 
         $validator
             ->scalar('Nombre_Prod')
@@ -95,10 +94,18 @@ class ProductoTable extends Table
 
         $validator
             ->scalar('Nombre_Prov')
-            ->maxLength('Nombre_Prov', 45)
+            ->maxLength('Nombre_Prov', 30)
             ->requirePresence('Nombre_Prov', 'create')
             ->notEmptyString('Nombre_Prov');
 
         return $validator;
     }
+
+    /**
+     * Returns a rules checker object that will be used for validating
+     * application integrity.
+     *
+     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
+     * @return \Cake\ORM\RulesChecker
+     */
 }

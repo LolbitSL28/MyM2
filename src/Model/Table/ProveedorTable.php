@@ -41,6 +41,9 @@ class ProveedorTable extends Table
         $this->setDisplayField('Nombre_Prov');
         $this->setPrimaryKey('Id_Prov');
     }
+/*
+        $this->hasMany('Productos');
+    }
 
     /**
      * Default validation rules.
