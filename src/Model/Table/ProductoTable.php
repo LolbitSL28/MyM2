@@ -41,9 +41,14 @@ class ProductoTable extends Table
         $this->setDisplayField('Nombre_Cat');
         $this->setPrimaryKey('Id_Producto');
         $this->addBehavior('Timestamp');
+        
         $this->belongsTo('Categoria')
             ->setForeignKey('Nombre_Cat')
             ->setBindingKey('$Nombre_Cat');
+        
+        $this->belongsTo('Proveedor')
+            ->setForeignKey('Nombre_Prov')
+            ->setBindingKey('$Nombre_Prov');
     }
 
     /**
@@ -55,9 +60,10 @@ class ProductoTable extends Table
     public function validationDefault(Validator $validator): Validator
     {
         $validator
-            ->integer('Id_Categoria')
-            ->requirePresence('Id_Categoria', 'create')
-            ->notEmptyString('Id_Categoria');
+            ->numeric('Nombre_Cat')
+            ->maxLength('Nombre_Prod', 30)
+            ->requirePresence('Nombre_Cat', 'create')
+            ->notEmptyString(' Nombre_Cat');
 
         $validator
             ->scalar('Nombre_Prod')
@@ -83,14 +89,15 @@ class ProductoTable extends Table
             ->notEmptyString('Cant_Prod');
 
         $validator
-            ->integer('Precio')
+            ->numeric('Precio')
             ->requirePresence('Precio', 'create')
             ->notEmptyString('Precio');
 
         $validator
-            ->integer('Id_Prov')
-            ->requirePresence('Id_Prov', 'create')
-            ->notEmptyString('Id_Prov');
+            ->integer('Nombre_Prov')
+            ->maxLength('Nombre_Prod', 45)
+            ->requirePresence('Nombre_Prov', 'create')
+            ->notEmptyString('Nombre_Prov');
 
         return $validator;
     }

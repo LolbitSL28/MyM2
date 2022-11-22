@@ -23,7 +23,7 @@
                     echo $this->Form->control('Marca');
                     echo $this->Form->control('Cant_Prod');
                     echo $this->Form->control('Precio');
-                    echo $this->Form->control('Id_Prov');
+                    echo $this->Form->control('producto.nombre_prov',['options' => $proveedor]);
                     
                     
                 ?>

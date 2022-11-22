@@ -38,7 +38,7 @@ class ProveedorTable extends Table
         parent::initialize($config);
 
         $this->setTable('proveedor');
-        $this->setDisplayField('Id_Prov');
+        $this->setDisplayField('Nombre_Prov');
         $this->setPrimaryKey('Id_Prov');
     }
 

@@ -58,9 +58,11 @@ class ProductoController extends AppController
         }
         // Get a list
         $categoria = $this->Producto->Categoria->find('list')->all();
+        $proveedor = $this->Producto->Proveedor->find('list')->all();
 
         // Set tags to the view context
         $this->set('categoria', $categoria);
+        $this->set('proveedor', $proveedor);
 
         $this->set('producto', $categoria);
 
@@ -89,8 +91,11 @@ class ProductoController extends AppController
             $this->Flash->error(__('The producto could not be saved. Please, try again.'));
         }
 // Get a list of tags.
-$categoria = $this->Producto->Categoria->find('all')->contain(['Categoria'])->all();
+        $categoria = $this->Producto->Categoria->find('list')->all();
+        $proveedor = $this->Producto->Proveedor->find('list')->all();
 
+// Set tags to the view context
+$this->set('proveedor', $proveedor);
 // Set tags to the view context
 $this->set('categoria', $categoria);
 
