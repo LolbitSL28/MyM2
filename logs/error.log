@@ -11882,3 +11882,2509 @@ Stack Trace:
 
 Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
 Referer URL: http://localhost/MyM2/producto/
+2022-11-22 08:23:15 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:36
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/view/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/view/2
+2022-11-22 08:23:15 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:36
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/view/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/producto/view/2
+2022-11-22 08:23:22 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:24:22 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:36
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/view/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/view/1
+2022-11-22 08:24:23 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:36
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/view/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/producto/view/1
+2022-11-22 08:24:27 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/edit/1
+2022-11-22 08:24:27 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/producto/edit/1
+2022-11-22 08:25:12 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProveedorController.php:36
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /proveedor/view/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/proveedor/view/1
+2022-11-22 08:25:13 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProveedorController.php:36
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /proveedor/view/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/proveedor/view/1
+2022-11-22 08:25:15 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProveedorController.php:72
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /proveedor/edit/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/proveedor/edit/1
+2022-11-22 08:25:15 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProveedorController.php:72
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /proveedor/edit/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/proveedor/edit/1
+2022-11-22 08:25:34 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProveedorController.php:72
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /proveedor/edit/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/proveedor/edit/2
+2022-11-22 08:25:34 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProveedorController.php:72
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /proveedor/edit/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/proveedor/edit/2
+2022-11-22 08:26:07 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::articulos() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'articulos',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/articulos
+Referer URL: http://localhost/MyM2/proveedor
+2022-11-22 08:26:12 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/
+2022-11-22 08:26:23 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/edit/5
+2022-11-22 08:26:23 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/producto/edit/5
+2022-11-22 08:26:43 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/edit/3
+2022-11-22 08:26:43 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/producto/edit/3
+2022-11-22 08:27:01 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/edit/5
+2022-11-22 08:27:01 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/producto/edit/5
+2022-11-22 08:27:15 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/edit/5
+2022-11-22 08:27:16 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/producto/edit/5
+2022-11-22 08:27:27 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/edit/3
+2022-11-22 08:27:27 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/producto/edit/3
+2022-11-22 08:27:42 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:36
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/view/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/view/3
+2022-11-22 08:27:42 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:36
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/view/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/producto/view/3
+2022-11-22 08:27:48 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/edit/3
+2022-11-22 08:27:49 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:96
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:113
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:164
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:359
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:495
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:506
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1548
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:82
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/edit/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/producto/edit/3
+2022-11-22 08:28:37 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:30:07 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:30:35 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mym`.`producto`, CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`Nombre_Prov`) REFERENCES `proveedor` (`Nombre_Prov`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:360
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2083
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1976
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1875
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1562
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:709
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1563
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1876
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:52
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/add
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:31:32 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mym`.`producto`, CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`Nombre_Prov`) REFERENCES `proveedor` (`Nombre_Prov`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:360
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2083
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1976
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1875
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1562
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:709
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1563
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1876
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:52
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/add
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:31:38 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:32:05 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mym`.`producto`, CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`Nombre_Prov`) REFERENCES `proveedor` (`Nombre_Prov`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:360
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2083
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1976
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1875
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1562
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:709
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1563
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1876
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:52
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/add
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:32:11 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:32:26 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mym`.`producto`, CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`Nombre_Prov`) REFERENCES `proveedor` (`Nombre_Prov`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:360
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2083
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1976
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1875
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1562
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:709
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1563
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1876
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:52
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/add
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:32:30 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:33:13 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mym`.`producto`, CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`Nombre_Prov`) REFERENCES `proveedor` (`Nombre_Prov`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:360
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2083
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1976
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1875
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1562
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:709
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1563
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1876
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:52
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/add
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:33:31 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/
+2022-11-22 08:33:40 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:34:05 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mym`.`producto`, CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`Nombre_Prov`) REFERENCES `proveedor` (`Nombre_Prov`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:360
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2083
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1976
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1875
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1562
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:709
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1563
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1876
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:52
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/add
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:35:32 error: [Cake\Controller\Exception\MissingActionException] Action ProveedorController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProveedorController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /proveedor/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/proveedor/add
+2022-11-22 08:35:33 error: [Cake\Controller\Exception\MissingActionException] Action ProveedorController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProveedorController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /proveedor/webroot/Logo%20M&M%20(Fatima).ico
+Referer URL: http://localhost/MyM2/proveedor/add
+2022-11-22 08:36:11 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:36:27 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mym`.`producto`, CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`Nombre_Prov`) REFERENCES `proveedor` (`Nombre_Prov`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:360
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2083
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1976
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1875
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1562
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:709
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1563
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1876
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:52
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/add
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:38:49 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mym`.`producto`, CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`Nombre_Prov`) REFERENCES `proveedor` (`Nombre_Prov`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:360
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2083
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1976
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1875
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1562
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:709
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1563
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1876
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:52
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/add
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:39:47 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/
+2022-11-22 08:42:28 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:42:47 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mym`.`producto`, CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`Nombre_Prov`) REFERENCES `proveedor` (`Nombre_Prov`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:360
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2083
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1976
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1875
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1562
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:709
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1563
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1876
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:52
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/add
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:44:52 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mym`.`producto`, CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`Nombre_Prov`) REFERENCES `proveedor` (`Nombre_Prov`)) in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:360
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2083
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1976
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1875
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1562
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:709
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1563
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1876
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:52
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/add
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:44:59 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/
+2022-11-22 08:45:06 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:45:24 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mym`.`producto`, CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`Nombre_Prov`) REFERENCES `proveedor` (`Nombre_Prov`)) in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:360
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2083
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1976
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1875
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1562
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:709
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1563
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1876
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:52
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/add
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:52:39 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:55:43 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/
+2022-11-22 08:56:44 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 08:57:13 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/
+2022-11-22 08:59:57 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/
+2022-11-22 09:00:01 error: [Cake\Controller\Exception\MissingActionException] Action ProductoController::webroot() could not be found, or is not accessible. in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ProductoController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost/MyM2/producto/add
+2022-11-22 09:00:23 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mym`.`producto`, CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`Nombre_Prov`) REFERENCES `proveedor` (`Nombre_Prov`)) in C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:360
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Query.php:254
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:2083
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1976
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1875
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1562
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Database\Connection.php:709
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1563
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\ORM\Table.php:1876
+- C:\xampp\htdocs\MyM2\src\Controller\ProductoController.php:52
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyM2\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyM2\webroot\index.php:40
+
+Request URL: /producto/add
+Referer URL: http://localhost/MyM2/producto/add

@@ -15,7 +15,7 @@ use Cake\ORM\Entity;
  * @property string $Marca
  * @property int $Cant_Prod
  * @property int $Precio
- * @property int $Id_Prov
+ * @property string $Nombre_Prov
  */
 class Producto extends Entity
 {
@@ -35,6 +35,6 @@ class Producto extends Entity
         'Marca' => true,
         'Cant_Prod' => true,
         'Precio' => true,
-        'Id_Prov' => true,
+        'Nombre_Prov' => true,
     ];
 }
