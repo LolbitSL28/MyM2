@@ -61,13 +61,14 @@ endif;
 
     
 
-    <?= $this->Html->css(['normalize.min', 'milligram.min', 'cake', 'estilo_home','info']) ?>
+    <?= $this->Html->css(['normalize.min', 'milligram.min', 'cake', 'estilo_home','info','styles_productos']) ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
 </head>
 <body>
+    
 <nav class="info">
         <div class="cel_email">
             Telefono: 633-107-1341 &nbsp &nbsp Correo Electronico: <a href="aby.mrod@gmail.com">aby.mrod@gmail.com</a>
@@ -103,7 +104,8 @@ endif;
     </nav>
 
 <!--Nombre de los programadores o cualquier cosa acerca de la empresa?-->
-    <div class="main">
+    
+<!--div class="main">
         <h1>Desarrolladores</h1>
         <p>
         • Francisco Alonso Bujanda Noriega<br>
@@ -114,17 +116,138 @@ endif;
         • Alejandra Murga Benitez<br>
         • Karen Paola Noriega Espinoza<br>
         • Hannah Valeria Rivas Chay
+    </div-->
+
+        <section class="home" id="home">
+
+    <div class="content">
+        <div class="contenedor_img">
+        <img class="img_publi" src="webroot/img/productos-varios.png">
+        </div>
+        <h3>Los Mejores Productos a la Vuelta de la Esquina!!!</h3>
+        <p>Nuestra mision es cubrir las necesidades de nuestros clientes vendiendo productos de la canasta básica a un precio más bajo, comparado al precio de un supermercado. Nuestra vision es crecer como empresa y dar un excelente servicio de calidad a nuestros clientes y empleados. Generando ingresos gracias a la compra y venta de mercancía. </p>
+          <p>Nos encontramos ubicados en Calle 8 Avenida 48. Infonavit Alamito, Agua Prieta Sonora.</p> 
     </div>
-<section class="">
-    <div class="publicidad">
-        
-        <h3>Los Mejores Productos a la Vuelta de la Esquina</h3>
-        <p>Nuestro abarrotes cuenta con todos los productos que necesitas a la vuelta de la esquina. Cubrimos las necesidades de nuestros clientes ofreciendo productos de la canasta básica a un precio más bajo, comparado al precio de un supermercado.</p>
-        
-    </div>
-</section>    
-   
-    
 </section>
+<div class="content2"><br>
+<div class="categoria">VARIEDAD DE PRODUCTOS</div>
+    <div class="page-content">    
+    <div class="product-container">
+            <h3>Doritos Nacho</h3>
+            <img src="webroot/img/imagenes_productos/doritos.png" />
+            <h1>$20</h1>
+            
+        </div>
+
+        <div class="product-container">
+            <h3>Sabritas Original</h3>
+            <img src="webroot/img/imagenes_productos/sabritas.jpg" />
+            <h1>$15</h1>
+            
+        </div>
+
+        <div class="product-container">
+            <h3>Cheetos Torciditos</h3>
+            <img src="webroot/img/imagenes_productos/cheetos.jpg" />
+            <h1>$25</h1>
+            
+        </div>
+
+        <div class="product-container">
+            <h3>Tostitos</h3>
+            <img src="webroot/img/imagenes_productos/tostitos.png" />
+            <h1>$35</h1>
+            
+        </div>
+<!--Galletas-->
+        <div class="product-container">
+            <h3>Galletas Chokis</h3>
+            <img src="webroot/img/imagenes_productos/chokis.jpg" />
+            <h1>$20</h1>
+            
+        </div>
+
+        <div class="product-container">
+            <h3>Galletas Maria</h3>
+            <img src="webroot/img/imagenes_productos/marias.jpeg" />
+            <h1>$20</h1>
+            
+        </div>
+        <div class="product-container">
+            <h3>Galletas Emperador</h3>
+            <img src="webroot/img/imagenes_productos/emperador.jpg" />
+            <h1>$27</h1>
+            
+        </div>
+        <div class="product-container">
+            <h3>Galletas Oreo</h3>
+            <img src="webroot/img/imagenes_productos/oreo.png" />
+            <h1>$18</h1>
+            
+        </div>
+        <div class="product-container">
+            <h3>Nito</h3>
+            <img src="webroot/img/imagenes_productos/nito.jpg" />
+            <h1>$16</h1>
+            
+        </div>
+        <div class="product-container">
+            <h3>Pinguinos Marinela</h3>
+            <img src="webroot/img/imagenes_productos/pinguinos.jpg" />
+            <h1>$25</h1>
+            
+        </div>
+        <div class="product-container">
+            <h3>Gansito Marinela</h3>
+            <img src="webroot/img/imagenes_productos/gansito.jpg" />
+            <h1>$15</h1>
+            
+        </div>
+        <div class="product-container">
+            <h3>Pan Blanco</h3>
+            <img src="webroot/img/imagenes_productos/panBlanco.jpg" />
+            <h1>$35</h1>
+            
+        </div>
+        <div class="product-container">
+            <h3>Tortillas de Harina</h3>
+            <img src="webroot/img/imagenes_productos/tortillas.jpg" />
+            <h1>$30</h1>
+            
+        </div>
+        <div class="product-container">
+            <h3>RikoPollo</h3>
+            <img src="webroot/img/imagenes_productos/rikopolllo.jpg" />
+            <h1>$16</h1>
+            
+        </div>
+        <div class="product-container">
+            <h3>Azucar Zulka</h3>
+            <img src="webroot/img/imagenes_productos/azucar.jpg" />
+            <h1>$35</h1>
+            
+        </div>
+        <div class="product-container">
+            <h3>Fabuloso</h3>
+            <img src="webroot/img/imagenes_productos/fabuloso.jpg" />
+            <h1>$32</h1>
+            
+        </div>
+    </div>
+</div>
+<div class="content3">
+
+<h3>Desarrolladores</h3>
+        <p>
+        • Francisco Alonso Bujanda Noriega
+        • Jose Armando Campos Castro
+        • Mayte Coronado Miranda
+        • Lucia Gamez Ballesteros
+        • Fatima Isabel Hernandez Garcia
+        • Alejandra Murga Benitez
+        • Karen Paola Noriega Espinoza
+        • Hannah Valeria Rivas Chay
+        </p>
+</div>
 </body>
 </html>

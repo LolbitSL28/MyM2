@@ -17,7 +17,7 @@
             <fieldset>
                 <legend><?= __('Agregar Usuario') ?></legend>
                 <?php
-                    echo $this->Form->control('Nombre de Usuario');
+                    echo $this->Form->control('user_name');
                     echo $this->Form->control('email');
                     echo $this->Form->control('password');
                 ?>

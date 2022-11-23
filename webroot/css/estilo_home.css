@@ -79,12 +79,13 @@ body{
     background-color: rgba(0, 0, 0, .1);
     transition: .4s;
 }
-/*espacio de la pagina home*/
+/*espacio de la pagina home
 .publicidad{
-    margin-top: 55px;
-    margin-left: 0px;
-    height: 260px;
-    width: 65vw;
+    margin-top: 30px;
+    margin-left: 33px;
+    
+    height: 300px;
+    width: 95vw;
     border-radius: 10px;
     background-color: rgba(255, 83, 198, 0.158);
     
@@ -93,11 +94,72 @@ body{
 h3{
     padding: 20px;
     font-size: 40px;
+    text-align: left;
 }
 p{
+    text-align: left;
     font-size: 16px;
     padding-left: 20px;
     margin-top: 15px;
+}*/
+
+.content{
+    margin-top: 30px;
+    margin-left: 33px;
+    
+    height: 360px;
+    width: 95vw;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.662);
+    
+}
+.content2{
+    margin-top: 30px;
+    margin-left: 33px;
+    height: auto;
+    width: 95vw;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.662);
+}
+
+.content3{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 33px;
+    height: auto;
+    width: 95vw;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.662);
+}
+.home .content h3{
+    font-size: 60px;
+    color:#333;
+
+}
+
+.home .content span{
+    font-size: 3.5rem;
+    
+    padding:1rem 0;
+    line-height: 1.5;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    color:rgba(0, 0, 0, .6);
+    padding:1rem 0;
+    line-height: 1.5;
+}
+
+.img_publi{
+    width: 400px;
+    height: 300px;
+    padding-right: 5px;
+    margin-top: 10px;
+    float: right;
+    display: flex;
+
 }
 
 

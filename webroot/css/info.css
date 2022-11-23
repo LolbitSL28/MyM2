@@ -1,8 +1,8 @@
 /*todo esto es de donnde se despliegan los nombres*/
 .main{
     margin-top: 3px;
-    width: 350px;
-    height: 350px;
+    width: 100px;
+    height: 100px;
     padding: 30px;
     background: linear-gradient(60deg,  #23e219,#bffcbc , #ffff, #f5d7e6, #fc3eb5);
     border-radius: 10px;
