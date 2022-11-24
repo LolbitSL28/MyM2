@@ -29,7 +29,7 @@ $cakeDescription = 'Abarrotes M&M';
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 
-    <?= $this->Html->css(['normalize.min', 'milligram.min', 'estilo_home','cake']) ?>
+    <?= $this->Html->css(['normalize.min', 'milligram.min', 'home','cake']) ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>

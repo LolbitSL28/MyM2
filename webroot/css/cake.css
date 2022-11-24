@@ -53,9 +53,9 @@ th a,
 }
 
 /* Main */
-body {
-    
-}
+/*body {
+    background: #f5f7fa;   
+}*/
 .content {
     margin-top: 50px;
     padding: 2rem;
