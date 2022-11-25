@@ -7,20 +7,20 @@
 <div class="row">
     <aside class="column">
         <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
+            <h4 class="heading"><?= __('Acciones') ?></h4>
             <?= $this->Form->postLink(
-                __('Delete'),
+                __('Eliminar'),
                 ['action' => 'delete', $empleado->Id_Empleado],
-                ['confirm' => __('Are you sure you want to delete # {0}?', $empleado->Id_Empleado), 'class' => 'side-nav-item']
+                ['confirm' => __('Seguro que desea eliminar el registro # {0}?', $empleado->Id_Empleado), 'class' => 'side-nav-item']
             ) ?>
-            <?= $this->Html->link(__('List Empleado'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Lista de Empleados'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
         </div>
     </aside>
     <div class="column-responsive column-80">
         <div class="empleado form content">
             <?= $this->Form->create($empleado) ?>
             <fieldset>
-                <legend><?= __('Edit Empleado') ?></legend>
+                <legend><?= __('Editar Empleado') ?></legend>
                 <?php
                     echo $this->Form->control('Nombre_Empl');
                     echo $this->Form->control('Rol_Empl');
@@ -30,7 +30,7 @@
                     echo $this->Form->control('Id_Usuario');
                 ?>
             </fieldset>
-            <?= $this->Form->button(__('Submit')) ?>
+            <?= $this->Form->button(__('Enviar')) ?>
             <?= $this->Form->end() ?>
         </div>
     </div>

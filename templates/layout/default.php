@@ -50,24 +50,33 @@ $cakeDescription = 'Abarrotes M&M';
         </div>
         <label class="logo">Abarrotes M&M🍎🥑</label>
         <ul class="menu_options">
-            <li>
             
-            <?= $this->Html->link(__('Salir'), ['controller' => 'Users', 'action' => 'logout']);?>
+        <li>
+            <?= $this->Html->link(__('Inicio'), ['controller' => 'Pages', 'action' => 'index']); ?>
             </li>
             <li>
-            <?= $this->Html->link(__('Articulos'), ['controller' => 'Producto', 'action' => 'articulos']); ?>
+            <?= $this->Html->link(__('Ventas'), ['controller' => 'Venta', 'action' => 'index']); ?>
             </li>
             <li>
-            <?= $this->Html->link(__('Registrar Articulos'), ['controller' => 'Producto', 'action' => 'add']); ?>
+            <?= $this->Html->link(__('Productos'), ['controller' => 'Producto', 'action' => 'index']); ?>
             </li>
             <li>
-                <a href="#">Servicios</a>
+            <?= $this->Html->link(__('Categoria'), ['controller' => 'Categoria', 'action' => 'index']); ?>
             </li>
             <li>
-            <?= $this->Html->link(__('Usuarios Registrados'), ['controller' => 'Users', 'action' => 'index']); ?>
+            <?= $this->Html->link(__('Proveedores'), ['controller' => 'Proveedor', 'action' => 'index']); ?>
+            </li>
+            <li>
+            <?= $this->Html->link(__('Empleados'), ['controller' => 'Empleado', 'action' => 'index']); ?>
+            </li>
+            <li>
+            <?= $this->Html->link(__('Usuarios'), ['controller' => 'Users', 'action' => 'index']); ?>
             </li>
             <li>
             <?= $this->Html->link(__('Comentarios'), ['controller' => 'Comentarios', 'action' => 'index']); ?>
+            </li>
+            <li>
+            <?= $this->Html->link(__('Logout'), ['controller' => 'Users', 'action' => 'logout']); ?>
             </li>
         </ul>
     </nav>

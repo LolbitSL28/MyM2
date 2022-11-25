@@ -7,11 +7,11 @@
 <div class="row">
     <aside class="column">
         <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('Edit Empleado'), ['action' => 'edit', $empleado->Id_Empleado], ['class' => 'side-nav-item']) ?>
-            <?= $this->Form->postLink(__('Delete Empleado'), ['action' => 'delete', $empleado->Id_Empleado], ['confirm' => __('Are you sure you want to delete # {0}?', $empleado->Id_Empleado), 'class' => 'side-nav-item']) ?>
-            <?= $this->Html->link(__('List Empleado'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
-            <?= $this->Html->link(__('New Empleado'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
+            <h4 class="heading"><?= __('Acciones') ?></h4>
+            <?= $this->Html->link(__('Editat Empleado'), ['action' => 'edit', $empleado->Id_Empleado], ['class' => 'side-nav-item']) ?>
+            <?= $this->Form->postLink(__('Eliminar Empleado'), ['action' => 'delete', $empleado->Id_Empleado], ['confirm' => __('Seguro que desea eliminar el registro # {0}?', $empleado->Id_Empleado), 'class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Lista de Empleado'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Nuevo Empleado'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
         </div>
     </aside>
     <div class="column-responsive column-80">

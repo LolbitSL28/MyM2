@@ -83,19 +83,25 @@ endif;
         <ul class="menu_options">
 
             <li>
-            <?= $this->Html->link(__('Iniciar Sesion'), ['controller' => 'Users', 'action' => 'login']); ?>
+            <?= $this->Html->link(__('Login'), ['controller' => 'Users', 'action' => 'login']); ?>
             </li>
             <li>
-            <?= $this->Html->link(__('Articulos'), ['controller' => 'Producto', 'action' => 'index']); ?>
+            <?= $this->Html->link(__('Ventas'), ['controller' => 'Venta', 'action' => 'index']); ?>
             </li>
             <li>
-            <?= $this->Html->link(__('Registrar Articulos'), ['controller' => 'Producto', 'action' => 'add']); ?>
+            <?= $this->Html->link(__('Productos'), ['controller' => 'Producto', 'action' => 'index']); ?>
             </li>
             <li>
-                <a href="#">Servicios</a>
+            <?= $this->Html->link(__('Categoria'), ['controller' => 'Categoria', 'action' => 'index']); ?>
             </li>
             <li>
-            <?= $this->Html->link(__('Usuarios Registrados'), ['controller' => 'Users', 'action' => 'index']); ?>
+            <?= $this->Html->link(__('Proveedores'), ['controller' => 'Proveedor', 'action' => 'index']); ?>
+            </li>
+            <li>
+            <?= $this->Html->link(__('Empleados'), ['controller' => 'Empleado', 'action' => 'index']); ?>
+            </li>
+            <li>
+            <?= $this->Html->link(__('Usuarios'), ['controller' => 'Users', 'action' => 'index']); ?>
             </li>
             <li>
             <?= $this->Html->link(__('Comentarios'), ['controller' => 'Comentarios', 'action' => 'index']); ?>

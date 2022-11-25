@@ -7,11 +7,11 @@
 <div class="row">
     <aside class="column">
         <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('Edit Producto'), ['action' => 'edit', $producto->Id_Producto], ['class' => 'side-nav-item']) ?>
-            <?= $this->Form->postLink(__('Delete Producto'), ['action' => 'delete', $producto->Id_Producto], ['confirm' => __('Are you sure you want to delete # {0}?', $producto->Id_Producto), 'class' => 'side-nav-item']) ?>
-            <?= $this->Html->link(__('List Producto'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
-            <?= $this->Html->link(__('New Producto'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
+            <h4 class="heading"><?= __('Acciones') ?></h4>
+            <?= $this->Html->link(__('Editar Producto'), ['action' => 'edit', $producto->Id_Producto], ['class' => 'side-nav-item']) ?>
+            <?= $this->Form->postLink(__('Eliminar Producto'), ['action' => 'delete', $producto->Id_Producto], ['confirm' => __('Seguro que desea eliminar el registro # {0}?', $producto->Id_Producto), 'class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Lista de Productos'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Nuevo Producto'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
         </div>
     </aside>
     <div class="column-responsive column-80">

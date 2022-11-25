@@ -5,7 +5,7 @@
  */
 ?>
 <div class="comentarios index content">
-    <?= $this->Html->link(__('New Comentario'), ['action' => 'add'], ['class' => 'button float-right']) ?>
+    <?= $this->Html->link(__('Nuevo Comentario'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <h3><?= __('Comentarios') ?></h3>
     <div class="table-responsive">
         <table>
@@ -14,7 +14,7 @@
                     <th><?= $this->Paginator->sort('Id_Comentario') ?></th>
                     <th><?= $this->Paginator->sort('Id_Usuario') ?></th>
                     <th><?= $this->Paginator->sort('Contenido') ?></th>
-                    <th class="actions"><?= __('Actions') ?></th>
+                    <th class="actions"><?= __('Acciones') ?></th>
                 </tr>
             </thead>
             <tbody>
@@ -24,9 +24,9 @@
                     <td><?= $this->Number->format($comentario->Id_Usuario) ?></td>
                     <td><?= h($comentario->Contenido) ?></td>
                     <td class="actions">
-                        <?= $this->Html->link(__('View'), ['action' => 'view', $comentario->Id_Comentario]) ?>
-                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $comentario->Id_Comentario]) ?>
-                        <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $comentario->Id_Comentario], ['confirm' => __('Are you sure you want to delete # {0}?', $comentario->Id_Comentario)]) ?>
+                        <?= $this->Html->link(__('Ver'), ['action' => 'view', $comentario->Id_Comentario]) ?>
+                        <?= $this->Html->link(__('Editar'), ['action' => 'edit', $comentario->Id_Comentario]) ?>
+                        <?= $this->Form->postLink(__('Eliminar'), ['action' => 'delete', $comentario->Id_Comentario], ['confirm' => __('Seguro que desea elimnar el registro # {0}?', $comentario->Id_Comentario)]) ?>
                     </td>
                 </tr>
                 <?php endforeach; ?>
@@ -35,12 +35,12 @@
     </div>
     <div class="paginator">
         <ul class="pagination">
-            <?= $this->Paginator->first('<< ' . __('first')) ?>
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->first('<< ' . __('Primero')) ?>
+            <?= $this->Paginator->prev('< ' . __('Anterior')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
-            <?= $this->Paginator->last(__('last') . ' >>') ?>
+            <?= $this->Paginator->next(__('Siguiente') . ' >') ?>
+            <?= $this->Paginator->last(__('Ultimo') . ' >>') ?>
         </ul>
-        <p><?= $this->Paginator->counter(__('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')) ?></p>
+        <p><?= $this->Paginator->counter(__('Pagina {{page}} de {{pages}}, mostrando {{current}} registro(s) de {{count}} en total')) ?></p>
     </div>
 </div>

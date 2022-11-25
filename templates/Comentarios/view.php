@@ -7,11 +7,11 @@
 <div class="row">
     <aside class="column">
         <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('Edit Comentario'), ['action' => 'edit', $comentario->Id_Comentario], ['class' => 'side-nav-item']) ?>
-            <?= $this->Form->postLink(__('Delete Comentario'), ['action' => 'delete', $comentario->Id_Comentario], ['confirm' => __('Are you sure you want to delete # {0}?', $comentario->Id_Comentario), 'class' => 'side-nav-item']) ?>
-            <?= $this->Html->link(__('List Comentarios'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
-            <?= $this->Html->link(__('New Comentario'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
+            <h4 class="heading"><?= __('Acciones') ?></h4>
+            <?= $this->Html->link(__('Editar Comentario'), ['action' => 'edit', $comentario->Id_Comentario], ['class' => 'side-nav-item']) ?>
+            <?= $this->Form->postLink(__('Eliminar Comentario'), ['action' => 'delete', $comentario->Id_Comentario], ['confirm' => __('Are you sure you want to delete # {0}?', $comentario->Id_Comentario), 'class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Lista de Comentarios'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Nuevo Comentario'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
         </div>
     </aside>
     <div class="column-responsive column-80">

@@ -7,15 +7,15 @@
 <div class="row">
     <aside class="column">
         <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('List Empleado'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
+            <h4 class="heading"><?= __('Acciones') ?></h4>
+            <?= $this->Html->link(__('Lista de Empleados'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
         </div>
     </aside>
     <div class="column-responsive column-80">
         <div class="empleado form content">
             <?= $this->Form->create($empleado) ?>
             <fieldset>
-                <legend><?= __('Add Empleado') ?></legend>
+                <legend><?= __('Agregar Empleado') ?></legend>
                 <?php
                     echo $this->Form->control('Nombre_Empl');
                     echo $this->Form->control('Rol_Empl');
@@ -25,7 +25,7 @@
                     echo $this->Form->control('Id_Usuario');
                 ?>
             </fieldset>
-            <?= $this->Form->button(__('Submit')) ?>
+            <?= $this->Form->button(__('Enviar')) ?>
             <?= $this->Form->end() ?>
         </div>
     </div>

@@ -7,11 +7,11 @@
 <div class="row">
     <aside class="column">
         <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('Edit Ventum'), ['action' => 'edit', $ventum->Id_Venta], ['class' => 'side-nav-item']) ?>
-            <?= $this->Form->postLink(__('Delete Ventum'), ['action' => 'delete', $ventum->Id_Venta], ['confirm' => __('Are you sure you want to delete # {0}?', $ventum->Id_Venta), 'class' => 'side-nav-item']) ?>
-            <?= $this->Html->link(__('List Venta'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
-            <?= $this->Html->link(__('New Ventum'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
+            <h4 class="heading"><?= __('Acciones') ?></h4>
+            <?= $this->Html->link(__('Editar Venta'), ['action' => 'edit', $ventum->Id_Venta], ['class' => 'side-nav-item']) ?>
+            <?= $this->Form->postLink(__('Elimnar Venta'), ['action' => 'delete', $ventum->Id_Venta], ['confirm' => __('Seguro que desea eliminar el registro # {0}?', $ventum->Id_Venta), 'class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Lista de Ventas'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Nueva Venta'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
         </div>
     </aside>
     <div class="column-responsive column-80">
