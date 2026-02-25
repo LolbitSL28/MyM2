@@ -132,7 +132,7 @@ endif;
         </div>
         <h3>Los Mejores Productos a la Vuelta de la Esquina!!!</h3>
         <p>Nuestra mision es cubrir las necesidades de nuestros clientes vendiendo productos de la canasta básica a un precio más bajo, comparado al precio de un supermercado. Nuestra vision es crecer como empresa y dar un excelente servicio de calidad a nuestros clientes y empleados. Generando ingresos gracias a la compra y venta de mercancía. </p>
-          <p>Nos encontramos ubicados en Calle 8 Avenida 48. Infonavit Alamito, Agua Prieta Sonora.</p> 
+        <p>Nos encontramos ubicados en Calle 8 Avenida 48. Infonavit Alamito, Agua Prieta Sonora.</p> 
     </div>
 </section>
 <div class="content2"><br>
@@ -140,7 +140,7 @@ endif;
     <div class="page-content">    
     <div class="product-container">
             <h3>Doritos Nacho</h3>
-            <img src="webroot/img/imagenes_productos/doritos.png" />
+            <img src="webroot\img\imagenes_productos\doritos.png" />
             <h1>$20</h1>
             
         </div>
