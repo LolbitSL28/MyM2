@@ -35016,3 +35016,597 @@ Stack Trace:
 
 Request URL: /venta/webroot/Logo%20M&M%20(Fatima).ico
 Referer URL: http://localhost:8765/venta/add
+2026-02-25 04:46:04 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/Logo%20M&M%20(Fatima).jpeg
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:04 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/productos-varios.png
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:04 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/doritos.png
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:04 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/sabritas.jpg
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:05 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/cheetos.jpg
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:05 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/tostitos.png
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:05 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/chokis.jpg
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:06 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/marias.jpeg
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:06 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/emperador.jpg
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:06 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/oreo.png
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:07 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/nito.jpg
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:07 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/pinguinos.jpg
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:08 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/gansito.jpg
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:08 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/panBlanco.jpg
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:08 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/tortillas.jpg
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:09 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/rikopolllo.jpg
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:09 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/azucar.jpg
+Referer URL: http://localhost:8765/
+2026-02-25 04:46:09 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\MyMpt3\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\MyMpt3\webroot\index.php:40
+
+Request URL: /webroot/img/imagenes_productos/fabuloso.jpg
+Referer URL: http://localhost:8765/
